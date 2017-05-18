@@ -10,12 +10,9 @@ function cargarPagina(){
 }
 
 function sobreElemento(){
-var dato = document.getElementById('info');
-dato.addEventListener('mouseout', function(){
 	alert('Estás sobre mí');
-});
+}
 
-dato.addEventListener('mouseover', function(){
+function sobreElementoDos(){
 	alert('No estás sobre mí');
-});
 }
